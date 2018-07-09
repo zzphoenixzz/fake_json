@@ -1,38 +1,45 @@
-  {
-    _id: '{{objectId()}}',
-    index: '{{index()}}',
-    guid: '{{guid()}}',
-    isActive: '{{bool()}}',
-    balance: '{{floating(1000, 4000, 2, "$0,0.00")}}',
-    picture: 'http://placehold.it/32x32',
-    age: '{{integer(20, 40)}}',
-    eyeColor: '{{random("blue", "brown", "green")}}',
-    name: '{{firstName()}} {{surname()}}',
-    gender: '{{gender()}}',
-    company: '{{company().toUpperCase()}}',
-    email: '{{email()}}',
-    phone: '+1 {{phone()}}',
-    address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
-    about: '{{lorem(1, "paragraphs")}}',
-    registered: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
-    latitude: '{{floating(-90.000001, 90)}}',
-    longitude: '{{floating(-180.000001, 180)}}',
-    tags: [
-      '{{repeat(7)}}',
-      '{{lorem(1, "words")}}'
+{
+    "_id": "5b43ae84e96f33adf30327ec",
+    "index": 0,
+    "guid": "68e75eb8-67af-4d0b-8db8-c86025db63ea",
+    "isActive": false,
+    "balance": "$3,771.07",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "green",
+    "name": "Bessie Velazquez",
+    "gender": "female",
+    "company": "ZUVY",
+    "email": "bessievelazquez@zuvy.com",
+    "phone": "+1 (993) 580-2654",
+    "address": "587 Varet Street, Cornfields, Massachusetts, 2056",
+    "about": "Nisi ea qui id sit ipsum aute id. Ullamco cupidatat duis esse veniam esse nisi laborum et deserunt magna officia. Excepteur consequat nisi Lorem exercitation eiusmod minim amet nisi laboris pariatur sint eiusmod in. Irure ut nulla est dolore laboris sint laboris reprehenderit consectetur cillum. Non in est dolor ex elit nostrud reprehenderit cillum dolore laborum.\r\n",
+    "registered": "2016-07-21T07:20:44 +04:00",
+    "latitude": -48.651974,
+    "longitude": -178.705776,
+    "tags": [
+      "aliquip",
+      "culpa",
+      "consequat",
+      "ullamco",
+      "consectetur",
+      "laboris",
+      "incididunt"
     ],
-    friends: [
-      '{{repeat(3)}}',
+    "friends": [
       {
-        id: '{{index()}}',
-        name: '{{firstName()}} {{surname()}}'
+        "id": 0,
+        "name": "Benson Browning"
+      },
+      {
+        "id": 1,
+        "name": "Deborah Fields"
+      },
+      {
+        "id": 2,
+        "name": "Lorna Gross"
       }
     ],
-    greeting: function (tags) {
-      return 'Hello, ' + this.name + '! You have ' + tags.integer(1, 10) + ' unread messages.';
-    },
-    favoriteFruit: function (tags) {
-      var fruits = ['apple', 'banana', 'strawberry'];
-      return fruits[tags.integer(0, fruits.length - 1)];
-    }
+    "greeting": "Hello, Bessie Velazquez! You have 5 unread messages.",
+    "favoriteFruit": "banana"
   }
