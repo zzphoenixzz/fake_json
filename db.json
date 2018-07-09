@@ -1,30 +1,14 @@
 {
     "_id": "5b43ae84e96f33adf30327ec",
-    "index": 0,
-    "guid": "68e75eb8-67af-4d0b-8db8-c86025db63ea",
-    "isActive": false,
-    "balance": "$3,771.07",
     "picture": "http://placehold.it/32x32",
     "age": 22,
-    "eyeColor": "green",
-    "name": "Bessie Velazquez",
-    "gender": "female",
-    "company": "ZUVY",
-    "email": "bessievelazquez@zuvy.com",
-    "phone": "+1 (993) 580-2654",
-    "address": "587 Varet Street, Cornfields, Massachusetts, 2056",
-    "about": "Nisi ea qui id sit ipsum aute id. Ullamco cupidatat duis esse veniam esse nisi laborum et deserunt magna officia. Excepteur consequat nisi Lorem exercitation eiusmod minim amet nisi laboris pariatur sint eiusmod in. Irure ut nulla est dolore laboris sint laboris reprehenderit consectetur cillum. Non in est dolor ex elit nostrud reprehenderit cillum dolore laborum.\r\n",
-    "registered": "2016-07-21T07:20:44 +04:00",
     "latitude": -48.651974,
     "longitude": -178.705776,
     "tags": [
       "aliquip",
       "culpa",
       "consequat",
-      "ullamco",
-      "consectetur",
-      "laboris",
-      "incididunt"
+      "ullamco"
     ],
     "friends": [
       {
@@ -39,7 +23,5 @@
         "id": 2,
         "name": "Lorna Gross"
       }
-    ],
-    "greeting": "Hello, Bessie Velazquez! You have 5 unread messages.",
-    "favoriteFruit": "banana"
+    ]
   }
