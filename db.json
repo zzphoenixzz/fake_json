@@ -1,17 +1,20 @@
-[
-    {
-        "id": 1,
-        "name": "john",
-        "age":23
-    },
-    {
-        "id": 2,
-        "name": "robert",
-        "age":24
-    },
-    {
-        "id": 3,
-        "name": "luke",
-        "age":25
-    }
-]
+{
+"profiles":
+    [
+        {
+            "id": 1,
+            "name": "john",
+            "age":23
+        },
+        {
+            "id": 2,
+            "name": "robert",
+            "age":24
+        },
+        {
+            "id": 3,
+            "name": "luke",
+            "age":25
+        }
+    ]
+}
